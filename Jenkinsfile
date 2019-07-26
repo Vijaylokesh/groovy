@@ -25,7 +25,7 @@ pipeline {
         }
         stage('sanity test') {
           steps {
-            sh 'echo " hai sanity"'
+            sh 'echo" hai sanity"'
           }
         }
       }
